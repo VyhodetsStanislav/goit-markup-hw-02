@@ -9,10 +9,10 @@ a {
   text-decoration: none;
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: normal;
-  color: #757575;
+  font-weight: 400;
+  color: var(--osn-color);
 }
 ul {
   list-style: none;
@@ -22,7 +22,7 @@ ul {
 .nav {
 }
 .logo {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -39,9 +39,10 @@ ul {
 .header-links {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--menu-standart);
+  cursor: pointer;
 }
 .header-links:visited {
   color: var(--menu-standart);
@@ -75,10 +76,9 @@ ul {
   color: var(--belyi);
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
   letter-spacing: 0.06em;
 }
 
@@ -88,13 +88,12 @@ ul {
 }
 .benefits-heading {
   color: var(--zag-h-ty);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
 .benefits-list {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -104,21 +103,21 @@ ul {
 
 .activity {
   color: var(--zag-h-ty);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .activity-list-b {
   color: var(--zag-h-ty);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 .activity-list {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
 }
 
@@ -129,9 +128,9 @@ ul {
 .logo-footer {
   font-family: Raleway;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
@@ -152,9 +151,10 @@ ul {
   background-color: var(--belyi);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--zag-h-ty);
+  cursor: pointer;
 }
 .radio-button:hover,
 .radio-button:focus {
@@ -162,14 +162,13 @@ ul {
 }
 /* портфолио наши работы */
 .raboti-h {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--zag-h-ty);
 }
 .raboti-p {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
